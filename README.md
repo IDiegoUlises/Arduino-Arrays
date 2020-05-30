@@ -8,6 +8,7 @@ string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
 
 cars[0] = "BWM";
 
+//Ver el tamaño del array
 int cantidad = cars.lenght();
 ```
 
