@@ -14,6 +14,7 @@ int cantidad = cars.lenght();
 Codigo de prueba
 ```c++
 int estado[1];
+int led = 2;
 
 estado[0] = 0;
 estado[1] = 1;
@@ -21,9 +22,9 @@ estado[1] = 1;
 void setup() {
   Serial.begin(9600);
 
-  pinMode(2,OUTPUT);
+  pinMode(led,OUTPUT);
 
-   digitalWrite(2,estado[1]);
+   digitalWrite(led,estado[1]);
 
 
 }
