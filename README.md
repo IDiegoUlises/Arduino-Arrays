@@ -11,6 +11,29 @@ cars[0] = "BWM";
 int cantidad = cars.lenght();
 ```
 
+otro
+```c++
+int estado[1];
+
+estado[0] = 0;
+estado[1] = 1;
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(2,OUTPUT);
+
+   digitalWrite(2,estado[1]);
+
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+
+```
 
 
 Existe dos tipos unidimensonal y bidiminsiunal 
