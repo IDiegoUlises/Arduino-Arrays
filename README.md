@@ -14,6 +14,8 @@ int arreglo[4] = {0,1,2,3};
 **Se seleciona**
 ```c++
 int lista = arreglo[1];
+```
+
 
 ```c++
 //Ver el tamaño del array(Verificar)
