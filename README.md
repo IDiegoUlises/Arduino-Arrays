@@ -20,21 +20,3 @@ int lista = arreglo[1];
 ```c++
 int longitud = sizeof(arreglo) / sizeof(arreglo[0]);
 ```
-
-
-Codigo de prueba
-```c++
-String arreglo[1];
-
-arreglo[0] = "cero";
-arreglo[1] = "uno";
-
-void setup() {
-  Serial.begin(9600);
-}
-
-void loop() {
- Serial.println(arreglo[1]);
-}
-
-```
