@@ -3,17 +3,17 @@
 **Se declara**
 
 ```c++
-string arreglo[4];
+int arreglo[4];
 ```
 
 **Se define**
 ```c++
-string arreglo[4] = {"cero", "uno", "dos", "tres"};
+int arreglo[4] = {0,1,2,3};
 ```
 
 **Se seleciona**
 ```c++
-string lista = arreglo[1];
+int lista = arreglo[1];
 
 ```c++
 //Ver el tamaño del array(Verificar)
