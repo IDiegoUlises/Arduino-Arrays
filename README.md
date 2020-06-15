@@ -16,10 +16,10 @@ int arreglo[4] = {0,1,2,3};
 int lista = arreglo[1];
 ```
 
-
+**Se obtiene el tamaño del arreglo(verificar)**
 ```c++
 //Ver el tamaño del array(Verificar)
-int cantidad = cars.lenght();
+int cantidad = arreglo.lenght();
 ```
 
 Codigo de prueba
