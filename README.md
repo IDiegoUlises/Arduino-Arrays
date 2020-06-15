@@ -16,9 +16,9 @@ int arreglo[4] = {0,1,2,3};
 int lista = arreglo[1];
 ```
 
-**Se obtiene el tamaño del arreglo(verificar)**
+**Se obtiene el tamaño del arreglo**
 ```c++
-int cantidad = arreglo.lenght();
+int longitud = sizeof(arreglo) / sizeof(arreglo[0]);
 ```
 
 
