@@ -38,8 +38,3 @@ void loop() {
 }
 
 ```
-
-
-Existe dos tipos unidimensonal y bidiminsiunal 
-
-Es como una lista que almacena muchas variables
