@@ -3,17 +3,17 @@
 **Se declara**
 
 ```c++
-string cars[4];
+string arreglo[4];
 ```
 
 **Se define**
 ```c++
-string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+string arreglo[4] = {"cero", "uno", "dos", "tres"};
 ```
 
 **Se seleciona**
 ```c++
-string lista = cars[1];
+string lista = arreglo[1];
 
 ```c++
 //Ver el tamaño del array(Verificar)
